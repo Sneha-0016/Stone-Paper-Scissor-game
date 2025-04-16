@@ -1,0 +1,53 @@
+ body {
+      font-family: Arial, sans-serif;
+      text-align: center;
+      background: #f0f8ff;
+     
+    }
+    h1 {
+		
+      margin-bottom: 6px;
+	  background-color:black;
+	  color:white;
+	  height:50px;
+	  
+    }
+    .scoreboard {
+      font-size: 20px;
+      margin-top: 40px;
+    }
+    .scores {
+      display: flex;
+      justify-content: center;
+      gap: 50px;
+      margin-bottom: 20px;
+    }
+    .choices {
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+	  margin-top:70px;
+    }
+    .choice {
+	  height:60px;
+	  width:90px;
+	  font-size:30px;
+      background: white;
+      border: 2px solid #333;
+      border-radius: 10px;
+      padding: 40px;
+      cursor: pointer;
+      transition: transform 0.2s;
+    }
+    .choice:hover {
+      transform: scale(1.1);
+      background: #e0e0e0;
+    }
+    #result {
+      margin-top: 30px;
+      font-size: 24px;
+      font-weight: bold;
+    }
+	#user-score,#computer-score{
+		font-size:40px;
+	}
